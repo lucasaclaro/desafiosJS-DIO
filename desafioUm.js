@@ -1,7 +1,8 @@
 // Contar vogais e espaços em branco
 
-let str = 'a vida e louca'; 
-let strSplit = str.split('');
+let str = 'A vida e louca'; 
+let strFormatada = str.toLowerCase();
+let strSplit = strFormatada.split('');
 let contA = 0;
 let contE = 0;
 let contI = 0;
